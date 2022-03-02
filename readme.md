@@ -62,5 +62,5 @@ yarn dev:server
 ***
 🌐 | https://github.com/hilquiasfmelo
 
-- Link do Repositório dessa API [@hilquiasfmelo](https://www.github.com/hilquiasfmelo)
+- Link do Repositório dessa API [@hilquiasfmelo](https://github.com/hilquiasfmelo/api-coins-test.git)
 
