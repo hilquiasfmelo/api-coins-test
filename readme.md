@@ -53,7 +53,7 @@ yarn typeorm migration:run
 ```bash
 yarn dev:server
 ```
-## Autores
+## Autor
 👩‍💻 | Hilquias Ferreira Melo
 ***
 📧 | hilquiasfmelo@hotmail.com
