@@ -33,7 +33,7 @@ class AuthenticateUsersService {
     const user = await this.usersRepository.findByEmail(email);
 
     if (!user) {
-      throw new AppError('Username or password incorrect', 401);
+      throw new AppError('Incorrect email/password combination.', 401);
     }
 
     // Checks if the password that the user passed matches the one encrypted in the bank
@@ -43,7 +43,7 @@ class AuthenticateUsersService {
     );
 
     if (!passwordMatch) {
-      throw new AppError('Username or password incorrect', 401);
+      throw new AppError('Incorrect email/password combination.', 401);
     }
 
     if (user.active === false) {
